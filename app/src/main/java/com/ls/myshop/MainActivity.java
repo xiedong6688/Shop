@@ -49,6 +49,12 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+    }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
         initData();
         initFragement();
     }
@@ -114,7 +120,7 @@ public class MainActivity extends AppCompatActivity
      * 初始化 数据
      */
     private void initData() {
-        items = new String[]{"最新折扣", "昨日上新", "最后疯抢", "9.9包邮", "明日预告", "谢宋良推荐"};
+        items = new String[]{"最新折扣", "昨日上新", "最后疯抢", "9.9包邮", "明日预告", "商店推荐"};
 
     }
 
