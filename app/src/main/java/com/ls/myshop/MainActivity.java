@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity
     private TabLayout tablayout;
     private ViewPager viewpager;
     private FragmentPagerAdapter pageadapter;
-    private TabLayout tablayout2;
+    private TabLayout tablayout4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
