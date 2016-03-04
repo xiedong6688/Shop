@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
     }
-    public void initvIEW()2{
+    public void initvIEW2(){
             System.out.println("你好，你在哪里啊");
     }
     @Override
