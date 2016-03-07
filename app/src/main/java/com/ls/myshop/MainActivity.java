@@ -143,4 +143,8 @@ public class MainActivity extends AppCompatActivity
         viewpager.setAdapter(pageadapter);
         tablayout.setupWithViewPager(viewpager);
     }
+    
+    protected int initFragement2() {
+        return 6;
+    }
 }
