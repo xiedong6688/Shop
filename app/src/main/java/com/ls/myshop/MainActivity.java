@@ -144,5 +144,7 @@ public class MainActivity extends AppCompatActivity
         tablayout.setupWithViewPager(viewpager);
     }
 
-
+ private void initData2() {
+        items = new String[]{"最新折扣", "昨日上新", "最后疯抢", "9.9包邮", "明日预告", "商店推荐"};
+    }
 }
