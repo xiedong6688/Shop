@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity
         tablayout.setupWithViewPager(viewpager);
     }
 
- private void initData4() {
+ private void initData5() {
         items = new String[]{ "明日预告", "商店推荐"};
     }
 }
