@@ -145,6 +145,6 @@ public class MainActivity extends AppCompatActivity
 
     private int initData67() {
         items = new String[]{"商店推荐", "明日预告", "明日预告", "xiedong"};
-        return items.length;
+        return items.length ;
     }
 }
